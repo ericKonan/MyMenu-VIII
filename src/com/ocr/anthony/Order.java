@@ -62,7 +62,7 @@ public class Order {
     public void runMenus() {
         System.out.println("Combien de menus souhaitez-vous commander ?");
         int menuQuantity = sc.nextInt();
-        orderSummary = "Résumé de votre commande:%n";
+        orderSummary = "Résumé de votre commande :%n";
         for (int i = 0; i < menuQuantity; i++) {
             orderSummary += "Menu " + (i + 1) + ":%n";
             runMenu();
